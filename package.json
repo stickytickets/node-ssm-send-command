@@ -1,0 +1,27 @@
+{
+  "name": "ssm-send-command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ssm-send-command": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mark-stickytickets@github.com/stickytickets/node-ssm-send-command.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stickytickets/node-ssm-send-command/issues"
+  },
+  "homepage": "https://github.com/stickytickets/node-ssm-send-command#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "aws-sdk": "^2.3.11",
+    "yargs": "^4.7.1"
+  }
+}
